@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "proxima-nova-soft" ;
+  src: url(fonts/ProximaNovaSoft-Bold.otf) ;
+}
+@media (max-width : 767px) {
+  .navbar-right{
+    padding-top: 50px ;
+  }
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.row-footer {
+  margin: 0px auto;
+  background-color: lightgrey;
+  min-height: 50px;
+}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-color: #5dbde9 ;
+  min-height: 400px;
+  color: white;
+}
+.carousel .item {
+  height: 400px ;
+}
+.navbar-inverse {
+  background: #0e5a7d;
+  color: white;
+}
+.navbar-toggle {
+  z-index: 1 ;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #1E90FF ;
+  color: #FF8C00 ;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #1E90FF ;
+  color: white ;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #1E90FF ;
+  color: white ;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #1E90FF;
+  color: white;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #1E90FF;
+  color: white;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #1E90FF;
+  color: white;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #0e5a7d;
+  color: white;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: green;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+  background-color: #0e5a7d;
+  color: white;
+}
+.navbar-right {
+  padding-right: 20px ;
+}
+body {
+  align: center;
+  z-index: 0;
+  background: white ;
+}
+a {
+  text-align: center;
+}
+#mycarousel{
+  width: 100% ;
+}
+h1{
+ color: green ;
+ font-family: "proxima-nova-soft", Arial, sans-serif;
+ font-size: 44px ;
+}
+p {
+ color: #696969 ;
+ font-size: 24px ;
+ font-family: sans-serif;
+ font-stretch: expanded;
+}
